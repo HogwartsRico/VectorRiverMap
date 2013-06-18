@@ -99,24 +99,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "VectorRiverMap/VectorTileOperation.m"
-         timestampString = "393149805.406283"
+         timestampString = "393226500.193815"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "87"
-         endingLineNumber = "87"
-         landmarkName = "-buildImage"
-         landmarkType = "5">
-      </FileBreakpoint>
-      <FileBreakpoint
-         shouldBeEnabled = "No"
-         ignoreCount = "0"
-         continueAfterRunningActions = "No"
-         filePath = "VectorRiverMap/VectorTileOperation.m"
-         timestampString = "393149805.406283"
-         startingColumnNumber = "9223372036854775807"
-         endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "102"
-         endingLineNumber = "102"
+         startingLineNumber = "84"
+         endingLineNumber = "84"
          landmarkName = "-buildImage"
          landmarkType = "5">
       </FileBreakpoint>

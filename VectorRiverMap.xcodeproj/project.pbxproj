@@ -30,7 +30,6 @@
 		062F182B176E9D1200854166 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 062F181E176E9D1200854166 /* QuartzCore.framework */; };
 		062F182C176E9D1200854166 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 062F181F176E9D1200854166 /* libz.dylib */; };
 		062F182D176E9D1200854166 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 062F1820176E9D1200854166 /* CoreText.framework */; };
-		062F182F176E9D5900854166 /* ArcGIS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 062F182E176E9D5900854166 /* ArcGIS.framework */; };
 		062F1833176EA11300854166 /* VectorTiledLayerSchema.m in Sources */ = {isa = PBXBuildFile; fileRef = 062F1832176EA11300854166 /* VectorTiledLayerSchema.m */; };
 		062F1836176EA1D000854166 /* VectorTiledLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 062F1835176EA1D000854166 /* VectorTiledLayer.m */; };
 		062F1839176EA3DB00854166 /* VectorTileOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 062F1838176EA3DB00854166 /* VectorTileOperation.m */; };
@@ -55,6 +54,7 @@
 		062F1877176EAD5300854166 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 062F1863176EAD5300854166 /* JSONKit.m */; };
 		062F1878176EAD5300854166 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 062F1864176EAD5300854166 /* README.md */; };
 		062F187B176ED6CC00854166 /* VectorTileCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 062F187A176ED6CC00854166 /* VectorTileCache.m */; };
+		06588E581770287A00670AB8 /* ArcGIS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06588E571770287A00670AB8 /* ArcGIS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -86,7 +86,6 @@
 		062F181E176E9D1200854166 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		062F181F176E9D1200854166 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		062F1820176E9D1200854166 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
-		062F182E176E9D5900854166 /* ArcGIS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ArcGIS.framework; path = ../../../../Library/SDKs/ArcGIS/iOS/ArcGIS.framework; sourceTree = "<group>"; };
 		062F1831176EA0CE00854166 /* VectorTiledLayerSchema.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VectorTiledLayerSchema.h; sourceTree = "<group>"; };
 		062F1832176EA11300854166 /* VectorTiledLayerSchema.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VectorTiledLayerSchema.m; sourceTree = "<group>"; };
 		062F1834176EA1D000854166 /* VectorTiledLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VectorTiledLayer.h; sourceTree = "<group>"; };
@@ -135,6 +134,7 @@
 		062F1864176EAD5300854166 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		062F1879176ED6CC00854166 /* VectorTileCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VectorTileCache.h; sourceTree = "<group>"; };
 		062F187A176ED6CC00854166 /* VectorTileCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VectorTileCache.m; sourceTree = "<group>"; };
+		06588E571770287A00670AB8 /* ArcGIS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ArcGIS.framework; path = ../../../Library/SDKs/ArcGIS/iOS/ArcGIS.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,7 +157,7 @@
 				062F182B176E9D1200854166 /* QuartzCore.framework in Frameworks */,
 				062F182C176E9D1200854166 /* libz.dylib in Frameworks */,
 				062F182D176E9D1200854166 /* CoreText.framework in Frameworks */,
-				062F182F176E9D5900854166 /* ArcGIS.framework in Frameworks */,
+				06588E581770287A00670AB8 /* ArcGIS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -184,7 +184,7 @@
 		062F17F0176E9C8200854166 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				062F182E176E9D5900854166 /* ArcGIS.framework */,
+				06588E571770287A00670AB8 /* ArcGIS.framework */,
 				062F1814176E9D1200854166 /* OpenGLES.framework */,
 				062F1815176E9D1200854166 /* libc++.dylib */,
 				062F1817176E9D1200854166 /* Security.framework */,
@@ -492,6 +492,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../../../../Library/SDKs/ArcGIS/iOS\"",
+					"\"$(SRCROOT)/../../../Library/SDKs/ArcGIS/iOS\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "VectorRiverMap/VectorRiverMap-Prefix.pch";
@@ -513,6 +514,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../../../../Library/SDKs/ArcGIS/iOS\"",
+					"\"$(SRCROOT)/../../../Library/SDKs/ArcGIS/iOS\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "VectorRiverMap/VectorRiverMap-Prefix.pch";
